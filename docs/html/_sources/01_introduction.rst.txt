@@ -10,4 +10,4 @@ See the `project repo <https://invent.kde.org/plasma-mobile/angelfish>`_ for mor
 
 
 
-You are welcome to contribute.
+You are welcome to contribute `to this doc <https://github.com/magdesign/Angelfish_Pinephone_Documentation>`_.

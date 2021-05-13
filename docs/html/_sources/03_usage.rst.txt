@@ -1,26 +1,35 @@
 Usage
 =====
 
+Gestures
+********
+
+Swipe from left => see Hamburger Menu
+
+Swipe from right => see Kebab Menu
 
 
 Hamburger Menu
 **************
 
+.. image:: _images/03_menubar_hamburger.png
+
+.. image:: _images/03_menu_hamburger.png
 
 
 
 Kebab Menu
 ***********
 
+.. image:: _images/03_menubar_kebab.png
 
-
-Gestures
-********
-
-Swipe from left
+.. image:: _images/03_menu_kebab.png
 
 
 
-Swipe from right
 
+Addressbar
+**********
 
+Sometimes the addressbar hides some important webcontent.
+To hide the addressbar....
