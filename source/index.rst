@@ -16,3 +16,4 @@ Angelfish Pinephone Usermanual
    02_installation
    03_usage
    04_adblocker
+   05_thisworks
