@@ -1,9 +1,6 @@
 Installation
 ============
 
-In Terminal
-************
-
 Manjaro:
 
 ::
