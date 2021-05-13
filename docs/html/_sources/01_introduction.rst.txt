@@ -1,0 +1,13 @@
+Introduction
+============
+
+Angelfish is an experimental webbrowser designed to be used on small mobile devices and ARM based hardware.
+
+This usermanual is explicit written for the usage on a `Pinephone <https://www.pine64.org/pinephone/>`_.
+
+
+See the `project repo <https://invent.kde.org/plasma-mobile/angelfish>`_ for more information.
+
+
+
+You are welcome to contribute.
