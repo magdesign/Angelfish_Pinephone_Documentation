@@ -27,9 +27,9 @@ Postmarket/Alpine based:
 
 ::
 
-    does anyone know?
+    sudo apk add plasma-angelfish
 
-
+The PostmarketOS build of Angelfish has no AdBlock functionality.
 
 Uninstall
 =========
