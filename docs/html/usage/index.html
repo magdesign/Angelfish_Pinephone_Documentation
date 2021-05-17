@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Installation - Angelfish</title>
+        <title>Usage - Angelfish</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -36,17 +36,14 @@
                             <li class="navitem">
                                 <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../01_introduction/" class="nav-link">Introduction</a>
-                            </li>
                             <li class="navitem active">
-                                <a href="./" class="nav-link">Installation</a>
+                                <a href="./" class="nav-link">Usage</a>
                             </li>
                             <li class="navitem">
-                                <a href="../03_usage/" class="nav-link">Usage</a>
+                                <a href="../adblocker/" class="nav-link">AdBlocker</a>
                             </li>
                             <li class="navitem">
-                                <a href="../04_adblocker/" class="nav-link">AdBlocker</a>
+                                <a href="../installation/" class="nav-link">Installation</a>
                             </li>
                         </ul>
 
@@ -57,12 +54,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../01_introduction/" class="nav-link">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../03_usage/" class="nav-link">
+                                <a rel="next" href="../adblocker/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -84,13 +81,24 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#installation" class="nav-link">Installation</a>
+            <li class="nav-item" data-level="1"><a href="#usage" class="nav-link">Usage</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#gestures" class="nav-link">Gestures</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="1"><a href="#uninstall" class="nav-link">Uninstall</a>
+            <li class="nav-item" data-level="2"><a href="#hamburger-menu" class="nav-link">Hamburger Menu</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#kebab-menu" class="nav-link">Kebab Menu</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#addressbar" class="nav-link">Addressbar</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -98,38 +106,32 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="installation">Installation</h1>
-<p>Manjaro:</p>
-<pre><code>sudo pacman -S angelfish
-</code></pre>
-<p>or open the Discover app and install it from there.</p>
-<p>&nbsp;</p>
-<p>Mobian:</p>
-<pre><code>sudo apt install git build-essential cmake extra-cmake-modules kirigami2-dev libkf5config-dev libkf5coreaddons-dev libkf5dbusaddons-dev libkf5i18n-dev libkf5purpose-dev libkf5windowsystem-dev libqt5sql5-sqlite libqt5svg5-dev qtbase5-dev qtquickcontrols2-5-dev qtwebengine5-dev
-sudo apt install qml-module-org-kde-purpose qml-module-qtwebengine
-git clone https://invent.kde.org/plasma-mobile/plasma-angelfish
-mkdir -p plasma-angelfish/build
-cd plasma-angelfish/build
-cmake -S .. -B .
-make -j4
-sudo make install
-</code></pre>
-<p>&nbsp;</p>
-<p>Postmarket/Alpine based:</p>
-<pre><code>sudo apk add plasma-angelfish
-</code></pre>
-<p>Note that the PostmarketOS build of Angelfish has no AdBlock 
-functionality.</p>
-<p>&nbsp;</p>
-<h1 id="uninstall">Uninstall</h1>
-<p>Manjaro:</p>
-<pre><code>sudo pacman -R angelfish
-</code></pre></div>
+<h1 id="usage">Usage</h1>
+<p>On first boot, you will be prompted to download the AdBlock filter lists, please confirm and download the lists.</p>
+<p>After this step, you are ready to go.</p>
+<h2 id="gestures">Gestures</h2>
+<hr />
+<p>This might differ depending which OS/Windowmanager you are using.</p>
+<p><em>Swipe from left</em> =&gt; see Hamburger Menu</p>
+<p><em>Swipe from right</em> =&gt; see Kebab Menu</p>
+<h2 id="hamburger-menu">Hamburger Menu</h2>
+<hr />
+<p><img alt="adblocker" src="../img/menubar_hamburger.png" /></p>
+<p><img alt="adblocker" src="../img/menu_hamburger.png" /></p>
+<h2 id="kebab-menu">Kebab Menu</h2>
+<hr />
+<p><img alt="adblocker" src="../img/menubar_kebab.png" /></p>
+<p><img alt="adblocker" src="../img/menu_kebab.png" /></p>
+<h2 id="addressbar">Addressbar</h2>
+<hr />
+<p>Sometimes the addressbar hides important webcontent.</p>
+<p>To hide the addressbar select in Kebab menu <em>"Hide Navigation Bar"</em>.</p></div>
             </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
+                <p>Copyleft 🄯 2021 Marc-André Gasser</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
